@@ -1,13 +1,15 @@
-<a class="btn btn-primary" (click)="saveGroceryList()">Save Grocery List</a>
-<table class="table">
-  <thead>
-  <tr>
-    <th scope="col">Product Name</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr *ngFor="let product of (groceryList$ | async)">
-    <td>{{product.name}}</td>
-  </tr>
-  </tbody>
-</table>
+<div style="margin: 12px;">
+  <a class="btn btn-primary" (click)="saveGroceryList()">Save Grocery List</a>
+  <table class="table" style="margin-top: 12px;">
+    <thead>
+    <tr>
+      <th scope="col">Product Name</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let product of (groceryList$ | async)">
+      <td>{{product.name}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
