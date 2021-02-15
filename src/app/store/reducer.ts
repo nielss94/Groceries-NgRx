@@ -17,6 +17,14 @@ export const initialState: GroceriesStoreState = {
       name: 'Cookie',
       description: 'Crunchy and tasty.'
     },
+    {
+      name: 'Tomato sauce',
+      description: 'Sauce, made of tomatoes'
+    },
+    {
+      name: 'Mozzarella',
+      description: 'A traditionally southern Italian cheese made from Italian buffalo\'s milk by the pasta filata method.'
+    },
   ],
   groceryList: []
 };
